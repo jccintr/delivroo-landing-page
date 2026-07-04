@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FFF7EE;
+  --color-cream-2: #FFEFDD;
+  --color-ink: #211A12;
+  --color-ink-soft: #6B5D4F;
+  --color-orange: #FF5A1F;
+  --color-orange-deep: #D9430E;
+  --color-orange-light: #FFE3D1;
+  --color-navy: #14182A;
+  --color-navy-2: #1D2238;
+  --color-mint: #1FAE6B;
+  --color-mint-light: #DFF6EA;
+  --color-butter: #FFC94D;
+  --color-cherry: #E4472A;
+
+  --font-display: "Baloo 2", "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::selection {
+  background: var(--color-orange);
+  color: white;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+@keyframes floaty {
+  0%, 100% { transform: translateY(0px) rotate(var(--r, 0deg)); }
+  50% { transform: translateY(-10px) rotate(var(--r, 0deg)); }
+}
+.animate-floaty {
+  animation: floaty 6s ease-in-out infinite;
+}
+
+@keyframes printout {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(0%); }
+}
+
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-ticker {
+  animation: ticker 28s linear infinite;
+}
