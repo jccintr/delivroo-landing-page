@@ -14,7 +14,7 @@ const orders = [
   { name: "Claudia Bernardes", type: "Delivery", status: "EM PREPARAÇÃO", value: "R$ 41,00" },
   { name: "Julio Gomes", type: "Retirar no Balcão", status: "EM PREPARAÇÃO", value: "R$ 20,00" },
   { name: "Carla Maria Pereira", type: "Delivery", status: "A CAMINHO", value: "R$ 91,00" },
-  { name: "João Carlos de Sá", type: "Retirar no Balcão", status: "PRONTO", value: "R$ 16,00" },
+  { name: "João Carlos Silva", type: "Retirar no Balcão", status: "PRONTO", value: "R$ 16,00" },
   { name: "Daniela Oliveira", type: "Delivery", status: "NOVO", value: "R$ 63,00" },
 ];
 

@@ -17,9 +17,9 @@ const products = [
 
 const orders = [
   { id: "#5-1782691415", cliente: "Julio Cesar", tipo: "Retirar", tipoColor: "text-cherry", total: "36,98" },
-  { id: "#5-1782686271", cliente: "João Bôsco de Sá Neto", tipo: "Entregar", tipoColor: "text-mint", total: "76,98" },
-  { id: "#5-1782685562", cliente: "Thiago Martins", tipo: "Entregar", tipoColor: "text-mint", total: "59,97" },
-  { id: "#5-1782684391", cliente: "Maria Cristina Machado", tipo: "Entregar", tipoColor: "text-mint", total: "27,99" },
+  { id: "#5-1782686271", cliente: "João Carlos", tipo: "Entregar", tipoColor: "text-mint", total: "76,98" },
+  { id: "#5-1782685562", cliente: "Lucas Santos", tipo: "Entregar", tipoColor: "text-mint", total: "59,97" },
+  { id: "#5-1782684391", cliente: "Ana Paula Silva", tipo: "Entregar", tipoColor: "text-mint", total: "27,99" },
 ];
 
 export default function AdminDashboard({ view = "cardapio" }) {
@@ -49,7 +49,7 @@ export default function AdminDashboard({ view = "cardapio" }) {
         </nav>
         <div className="px-4 pt-3 border-t border-white/10 flex items-center gap-2">
           <span className="w-6 h-6 rounded-full bg-orange/60 shrink-0" />
-          <span className="text-white/70 text-[10px]">Brothers Burger</span>
+          <span className="text-white/70 text-[10px]">Top Burguer</span>
         </div>
       </aside>
 

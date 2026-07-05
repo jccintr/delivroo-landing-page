@@ -15,7 +15,7 @@ export default function ClientMenuPreview() {
           <div className="w-11 h-11 rounded-full bg-ink shrink-0" />
           <div>
             <p className="font-display font-bold text-sm text-ink flex items-center gap-1">
-              Brothers Burger <span className="text-mint text-[11px]">✓</span>
+              Top Burguer <span className="text-mint text-[11px]">✓</span>
             </p>
             <p className="text-[10px] text-ink-soft">📍 Rua Benjamin Constant, 55</p>
           </div>

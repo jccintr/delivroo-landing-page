@@ -19,7 +19,7 @@ export default function AppHomeScreen() {
       <div className="p-3 space-y-3 flex-1 overflow-hidden">
         <div className="bg-white rounded-xl p-2.5 flex items-center gap-2.5 shadow-sm">
           <div className="w-9 h-9 rounded-full bg-ink shrink-0" />
-          <span className="text-[11px] font-bold text-ink">BROTHERS BURGER</span>
+          <span className="text-[11px] font-bold text-ink">TOP BURGUER</span>
         </div>
         <div className="grid grid-cols-2 gap-2.5">
           <div className="bg-mint rounded-xl p-2.5 text-white">

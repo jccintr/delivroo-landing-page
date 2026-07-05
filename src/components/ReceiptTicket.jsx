@@ -16,7 +16,7 @@ export default function ReceiptTicket({ className = "" }) {
         style={{ clipPath: zigzagClipPath(18) }}
       >
         <div className="text-center space-y-0.5 mb-3">
-          <p className="text-[11px] font-bold">No Capricho Lanches</p>
+          <p className="text-[11px] font-bold">Top Burguer</p>
           <p className="text-[10px]">Pedido: 2-1701112637</p>
           <p className="text-[9px] text-ink-soft">27/11/2023 16:17</p>
           <p className="text-[9px] font-bold">*** Delivery ***</p>
