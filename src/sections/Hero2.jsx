@@ -3,7 +3,7 @@ import ClientMenuMobile from "../components/mockups/ClientMenuMobile";
 import ReceiptTicket from "../components/ReceiptTicket";
 import phone from "../assets/tela-principal-mobile.png"
 
-export default function Hero() {
+export default function Hero2() {
   return (
     <section id="topo" className="relative pt-32 pb-24 sm:pt-40 sm:pb-32 overflow-hidden">
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-orange-light/60 via-cream to-cream" />
@@ -50,7 +50,14 @@ export default function Hero() {
         </div>
 
         <div className="relative flex justify-center lg:justify-end">
-          <img src={phone} alt="Tela principal do aplicativo mobile" className="w-1/2" />
+          <div className="absolute -right-2 top-6 sm:right-6 z-20 animate-floaty" style={{ "--r": "-4deg" }}>
+            <ReceiptTicket className="w-[168px] scale-[0.72] sm:scale-[0.8] origin-top-right" />
+          </div>
+          <div className="animate-floaty" style={{ "--r": "0deg", animationDelay: "0.4s" }}>
+            <PhoneFrame statusBarLabel="22:07" battery="85%">
+              <ClientMenuMobile />
+            </PhoneFrame>
+          </div>
         </div>
       </div>
     </section>
