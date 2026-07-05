@@ -10,15 +10,15 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-16 items-center">
         <div>
           <span className="inline-flex items-center gap-2 bg-white border border-ink/10 rounded-full px-3.5 py-1.5 text-xs font-bold text-orange-deep shadow-sm">
-            🍔 Feito para quem vende comida
+            🍔 Perfeito para hamburguerias e similares
           </span>
           <h1 className="font-display font-extrabold text-[2.6rem] leading-[1.05] sm:text-6xl sm:leading-[1.03] text-ink mt-5 text-balance">
             O cardápio digital que vira{" "}
             <span className="text-orange">pedido pronto pra imprimir</span>.
           </h1>
           <p className="text-lg text-ink-soft mt-6 max-w-lg leading-relaxed">
-            Seu cliente pede pelo link, sem baixar nada e sem cadastro. Você recebe na hora no
-            aplicativo gestor ou no painel web, aceita, e manda direto pra impressora térmica.
+            Seu cliente pede pelo link, sem baixar nada e sem cadastro. Você recebe o pedido na hora no
+            aplicativo gestor ou no painel web. Tudo muito simples e prático.
           </p>
           <div className="flex flex-wrap items-center gap-4 mt-8">
             <a
@@ -50,7 +50,7 @@ export default function Hero() {
         </div>
 
         <div className="relative flex justify-center lg:justify-end">
-          <img src={phone} alt="Tela principal do aplicativo mobile" className="w-1/2" />
+          <img src={phone} alt="Tela principal do aplicativo mobile" className="w-3/4 md:w-7/12" />
         </div>
       </div>
     </section>
