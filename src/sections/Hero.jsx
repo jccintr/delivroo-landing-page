@@ -13,7 +13,7 @@ export default function Hero() {
             🍔 Perfeito para hamburguerias e similares
           </span>
           <h1 className="font-display font-extrabold text-[2.6rem] leading-[1.05] sm:text-6xl sm:leading-[1.03] text-ink mt-5 text-balance">
-            Tenha seu próprio cardápio digital. Venda em {" "}
+            Tenha seu próprio cardápio digital<br/> Venda em {" "}
             <span className="text-orange">poucos cliques</span>
           </h1>
           <p className="text-lg text-ink-soft mt-6 max-w-lg leading-relaxed">

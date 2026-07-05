@@ -38,7 +38,7 @@ export default function Features() {
         <div className="max-w-xl mb-16">
           <span className="text-orange-deep font-bold text-sm uppercase tracking-wide">Recursos</span>
           <h2 className="font-display font-extrabold text-4xl sm:text-5xl text-ink mt-3 text-balance">
-            Tudo que a sua operação de delivery precisa.
+            Tudo que a sua operação de delivery precisa
           </h2>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
