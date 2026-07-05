@@ -13,21 +13,20 @@ export default function Hero() {
             🍔 Perfeito para hamburguerias e similares
           </span>
           <h1 className="font-display font-extrabold text-[2.6rem] leading-[1.05] sm:text-6xl sm:leading-[1.03] text-ink mt-5 text-balance">
-            O cardápio digital que vira{" "}
-            <span className="text-orange">pedido pronto pra imprimir</span>.
+            Seu cardápio digital pronto para vender em {" "}
+            <span className="text-orange">poucos cliques</span>
           </h1>
           <p className="text-lg text-ink-soft mt-6 max-w-lg leading-relaxed">
             Seu cliente pede pelo link, sem baixar nada e sem cadastro. Você recebe o pedido na hora no
-            aplicativo gestor ou no painel web. Tudo muito simples e prático.
+            aplicativo gestor ou no painel web. Tudo muito simples, prático e sem taxas por pedido.
           </p>
           <div className="flex flex-wrap items-center gap-4 mt-8">
             <a
-              href="https://www.delivroo.app.br"
-              target="_blank"
-              rel="noreferrer"
+              href="#preco"
+              
               className="bg-orange text-white font-bold px-7 py-4 rounded-full hover:bg-orange-deep transition-colors shadow-lg shadow-orange/30"
             >
-              Quero meu cardápio no ar
+              Quero meu cardápio
             </a>
             <a
               href="#como-funciona"
@@ -36,17 +35,7 @@ export default function Hero() {
               Ver como funciona
             </a>
           </div>
-          <div className="flex items-center gap-6 mt-10 text-sm text-ink-soft">
-            <div>
-              <p className="font-display font-extrabold text-2xl text-ink">R$ 99,90</p>
-              <p>assinatura fixa por mês</p>
-            </div>
-            <div className="w-px h-10 bg-ink/10" />
-            <div>
-              <p className="font-display font-extrabold text-2xl text-ink">R$ 0</p>
-              <p>de taxa por pedido</p>
-            </div>
-          </div>
+          
         </div>
 
         <div className="relative flex justify-center lg:justify-end">
