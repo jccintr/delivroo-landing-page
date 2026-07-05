@@ -18,7 +18,7 @@ export default function ReceiptTicket({ className = "" }) {
         <div className="text-center space-y-0.5 mb-3">
           <p className="text-[11px] font-bold">Top Burguer</p>
           <p className="text-[10px]">Pedido: 2-1701112637</p>
-          <p className="text-[9px] text-ink-soft">27/11/2023 16:17</p>
+          <p className="text-[9px] text-ink-soft">27/06/2026 20:17</p>
           <p className="text-[9px] font-bold">*** Delivery ***</p>
         </div>
         <div className="border-t border-dashed border-ink/30 my-2" />

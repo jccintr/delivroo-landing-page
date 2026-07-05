@@ -1,18 +1,18 @@
 const steps = [
   {
-    n: "01",
+    n: "1",
     title: "Cliente abre o link do cardápio",
     text: "Sem baixar aplicativo. Ele monta o pedido, informa apenas nome e telefone e escolhe entre entrega ou retirada.",
   },
   {
-    n: "02",
+    n: "2",
     title: "Você recebe o pedido na hora",
-    text: "O pedido cai no app Gestor Delivroo no seu celular ou no painel web, com um alerta sonoro e os itens, observações e endereço completos.",
+    text: "O pedido imediatamente fica disponível no app Gestor Delivroo no seu celular ou no painel web.",
   },
   {
-    n: "03",
-    title: "Aceita, imprime e despacha",
-    text: "Um toque envia o pedido pra impressora térmica no formato de cupom, pronto pra cozinha. Depois é só atualizar o status até a entrega.",
+    n: "3",
+    title: "Imprime, prepara e despacha",
+    text: "Você imprime o pedido, manda para a cozinha. Depois de pronto é só atualizar o status até a entrega ou retirada.",
   },
 ];
 
@@ -23,7 +23,7 @@ export default function HowItWorks() {
         <div className="max-w-xl mb-16">
           <span className="text-orange-deep font-bold text-sm uppercase tracking-wide">Como funciona</span>
           <h2 className="font-display font-extrabold text-4xl sm:text-5xl text-ink mt-3 text-balance">
-            Do link ao cupom impresso, em três passos.
+            Do link a entrega, somente três passos
           </h2>
         </div>
         <div className="grid md:grid-cols-3 gap-6">
