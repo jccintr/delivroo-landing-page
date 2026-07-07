@@ -39,7 +39,7 @@ export default function Hero() {
         </div>
 
         <div className="relative flex justify-center lg:justify-end">
-          <img src={phone} alt="Tela principal do aplicativo mobile" className="w-3/4 md:w-7/12" />
+          <img src={phone} alt="Tela principal do aplicativo mobile" className="w-full md:w-7/12" />
         </div>
       </div>
     </section>

@@ -2,32 +2,32 @@ const features = [
   {
     icon: "🛎️",
     title: "Pedidos em tempo real",
-    text: "Cada pedido novo aparece na hora, com status de em preparação, a caminho, pronto ou entregue.",
+    text: "Seu cliente faz o pedido e você recebe na hora. Daí é só prepearar e notificar o cliente quando estiver pronto.",
   },
   {
     icon: "🍔",
     title: "Cardápio do seu jeito",
-    text: "Categorias, fotos, adicionais e itens selecionáveis (ponto da carne, sabor, tamanho) sem depender de ninguém.",
+    text: "Categorias, foto, adicionais e itens selecionáveis configuráveis para cada produto.",
   },
   {
     icon: "🖨️",
-    title: "Impressão térmica automática",
-    text: "O pedido sai formatado como cupom, pronto pra grudar na cozinha, com endereço, observações e forma de pagamento.",
+    title: "Impressão de pedidos",
+    text: "O pedido impresso tem todas as informações para o pessoal da cozinha e de entrega. Tudo para facilitar sua operação e evitar erros.",
   },
   {
     icon: "🛵",
     title: "Entrega ou retirada",
-    text: "Configure suas taxas de entrega por região e deixe claro pro cliente quando o pedido é retirado no balcão.",
+    text: "Seu cliente escolhe se quer receber em casa ou retirar no balcão. As taxas de entrega são diferenciadas por bairro.",
   },
   {
     icon: "💳",
     title: "Formas de pagamento livres",
-    text: "Cadastre pix, cartão, dinheiro e o que mais sua loja aceitar — sem intermediar o pagamento.",
+    text: "Cadastre pix, cartão, dinheiro e o que mais sua loja aceitar como forma de pagamento.",
   },
   {
     icon: "📊",
     title: "Relatório de vendas",
-    text: "Veja o faturamento do dia, consulte pedidos por data e entenda o que mais vende no seu cardápio.",
+    text: "Relatório de vendas mensal completo com faturamento por dia. Acompanhe o desempenho do seu negócio e tome decisões estratégicas.",
   },
 ];
 
@@ -38,7 +38,7 @@ export default function Features() {
         <div className="max-w-xl mb-16">
           <span className="text-orange-deep font-bold text-sm uppercase tracking-wide">Recursos</span>
           <h2 className="font-display font-extrabold text-4xl sm:text-5xl text-ink mt-3 text-balance">
-            Tudo que a sua operação de delivery precisa
+            Tudo que a sua operação de delivery precisa0
           </h2>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">

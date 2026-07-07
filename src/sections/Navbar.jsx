@@ -44,7 +44,7 @@ export default function Navbar() {
           href="#contato"
           className="bg-ink text-white text-sm font-bold px-4 sm:px-5 py-2.5 rounded-full hover:bg-orange transition-colors"
         >
-          Falar com a gente
+          Fale conosco
         </a>
       </div>
     </header>
