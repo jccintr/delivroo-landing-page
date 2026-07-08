@@ -6,8 +6,7 @@ export default function PrintSignature() {
       <div className="max-w-6xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-14 items-center">
         <div className="order-2 lg:order-1 flex justify-center">
           <div className="relative">
-          
-            <ReceiptTicket className="relative z-10 border-2 border-ink/30 rounded-lg shadow-lg shadow-ink/50" />
+            <ReceiptTicket className="relative z-10  border-2 border-ink/30 rounded-lg shadow-lg shadow-ink/50" />
           </div>
         </div>
         <div className="order-1 lg:order-2">

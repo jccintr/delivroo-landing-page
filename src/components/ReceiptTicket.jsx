@@ -11,10 +11,7 @@ function zigzagClipPath(teeth = 16) {
 export default function ReceiptTicket({ className = "" }) {
   return (
     <div className={`relative w-[260px] ${className}`}>
-      <div
-        className="bg-white shadow-2xl shadow-ink/25 px-5 pt-6 pb-6 font-mono text-ink relative"
-        style={{ clipPath: zigzagClipPath(18) }}
-      >
+      <div className="bg-amber-50 rounded-lg px-5 pt-6 pb-6 font-mono text-ink relative">
         <div className="text-center space-y-0.5 mb-3">
           <p className="text-[11px] font-bold">Top Burguer</p>
           <p className="text-[10px]">Pedido: 2-1701112637</p>
