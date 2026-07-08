@@ -12,7 +12,7 @@ const features = [
   {
     icon: "🖨️",
     title: "Impressão de pedidos",
-    text: "O pedido impresso tem todas as informações para o pessoal da cozinha e de entrega. Tudo para facilitar sua operação e evitar erros.",
+    text: "O pedido impresso tem todas as informações para o pessoal da cozinha e da entrega. Tudo para facilitar sua operação e evitar erros.",
   },
   {
     icon: "🛵",
@@ -38,7 +38,7 @@ export default function Features() {
         <div className="max-w-xl mb-16">
           <span className="text-orange-deep font-bold text-sm uppercase tracking-wide">Recursos</span>
           <h2 className="font-display font-extrabold text-4xl sm:text-5xl text-ink mt-3 text-balance">
-            Tudo que a sua operação de delivery precisa0
+            Tudo que a sua operação de delivery precisa
           </h2>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">

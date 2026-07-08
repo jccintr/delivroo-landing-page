@@ -4,9 +4,9 @@ import AppOrdersScreen from "../components/mockups/AppOrdersScreen";
 import AppMenuScreen from "../components/mockups/AppMenuScreen";
 
 const screens = [
-  { comp: <AppHomeScreen />, label: "Painel do dia, num relance" },
-  { comp: <AppOrdersScreen />, label: "Cada pedido com seu status" },
-  { comp: <AppMenuScreen />, label: "Cardápio editável na palma da mão" },
+  { comp: <AppHomeScreen />, label: "Movimentação do dia" },
+  { comp: <AppOrdersScreen />, label: "Pedidos com status" },
+  { comp: <AppMenuScreen />, label: "Cardápio editável" },
 ];
 
 export default function AppShowcase() {
@@ -18,11 +18,11 @@ export default function AppShowcase() {
         <div className="max-w-xl mb-16">
           <span className="text-orange font-bold text-sm uppercase tracking-wide">App Gestor Delivroo</span>
           <h2 className="font-display font-extrabold text-4xl sm:text-5xl text-white mt-3 text-balance">
-            Sua loja no bolso, do jeito que o dia funciona.
+            O controle de sua loja na palma da sua mão.
           </h2>
           <p className="text-white/60 mt-5 text-lg leading-relaxed">
-            Sem computador ligado o dia todo. O aplicativo gestor avisa quando entra pedido novo,
-            mostra o faturamento em tempo real e deixa o cardápio pronto pra editar entre um pedido e outro.
+            Você não precisa de um computador, apenas do seu celular. O aplicativo gestor avisa quando você recebe um novo pedido,
+            mostra o faturamento em tempo real e deixa o cardápio pronto para você editar quando quiser.
           </p>
         </div>
         <div className="grid sm:grid-cols-3 gap-8 justify-items-center">
