@@ -2,7 +2,7 @@ const included = [
   "Cardápio digital ilimitado, com seu link próprio",
   "App Gestor Delivroo para Android",
   "Painel administrativo web completo",
-  "Impressão térmica dos pedidos",
+  "Impressão de pedidos",
   "Categorias, adicionais e itens selecionáveis",
   "Taxas de entrega e formas de pagamento configuráveis",
   "Relatório de vendas e pedidos por dia",
@@ -17,12 +17,10 @@ export default function Pricing() {
         <div className="text-center max-w-xl mx-auto mb-14">
           <span className="text-orange font-bold text-sm uppercase tracking-wide">Preço</span>
           <h2 className="font-display font-extrabold text-4xl sm:text-5xl text-white mt-3 text-balance">
-            Uma assinatura. Zero taxa por pedido.
+            Assinatura fixa mensal, sem taxas por pedido
           </h2>
           <p className="text-white/60 mt-5 text-lg leading-relaxed">
-            Muita plataforma de delivery cobra uma comissão em cima de cada venda: quanto mais você
-            vende, mais você paga. No Delivroo o valor é fixo — o quanto sua loja crescer, o custo
-            continua o mesmo.
+            Não queremos ser seu sócio e sim parceiro. Não importa o quanto você venda, sua assinatura continua a mesma, seu negócio cresce, a assinatura não.
           </p>
         </div>
 
@@ -33,7 +31,7 @@ export default function Pricing() {
               <span className="font-display font-extrabold text-5xl text-ink">R$ 99,90</span>
               <span className="text-ink-soft font-semibold mb-1.5">/mês</span>
             </div>
-            <p className="text-ink-soft mt-2 text-sm">Sem taxa por pedido, sem comissão, sem letras miúdas.</p>
+            <p className="text-ink-soft mt-2 text-sm">Sem taxa por pedido, sem comissão, sem surpresas no final do mês</p>
             <a
               href="https://www.delivroo.app.br"
               target="_blank"
