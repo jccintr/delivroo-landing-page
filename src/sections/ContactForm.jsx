@@ -41,7 +41,7 @@ export default function ContactForm() {
             Quer colocar sua loja no Delivroo?
           </h2>
           <p className="text-ink-soft mt-5 text-lg leading-relaxed">
-            Preenche o formulário com seus dados que a gente te chama no WhatsApp pra te ajudar a
+            Preencha o formulário com seus dados que o nosso SAC entrará em contato com você no WhatsApp pra te ajudar a
             montar o cardápio e tirar sua loja do papel.
           </p>
           <div className="mt-8 space-y-4">
@@ -56,17 +56,7 @@ export default function ContactForm() {
               </span>
               Falar direto no WhatsApp
             </a>
-            <a
-              href="https://www.delivroo.app.br"
-              target="_blank"
-              rel="noreferrer"
-              className="flex items-center gap-3 text-ink font-semibold hover:text-orange transition-colors"
-            >
-              <span className="w-10 h-10 rounded-full bg-orange-light flex items-center justify-center shrink-0">
-                🌐
-              </span>
-              www.delivroo.app.br
-            </a>
+            
           </div>
         </div>
 

@@ -22,7 +22,7 @@ export default function Hero() {
           </p>
           <div className="flex flex-wrap items-center gap-4 mt-8">
             <a
-              href="#preco"
+              href="#contato"
               
               className="bg-orange text-white font-bold px-7 py-4 rounded-full hover:bg-orange-deep transition-colors shadow-lg shadow-orange/30"
             >

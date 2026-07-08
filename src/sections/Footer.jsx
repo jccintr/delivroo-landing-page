@@ -9,13 +9,11 @@ export default function Footer() {
           <div>
             <Logo2 dark />
             <p className="mt-3 text-sm max-w-xs">
-              Cardápio digital, pedidos e impressão térmica em um só lugar. Uma assinatura fixa, sem taxa por pedido.
+              Seu cardápio digital com impressão de pedidos, assinatura fixa e sem taxas ou comissões por pedidos.
             </p>
           </div>
           <div className="flex flex-col sm:items-end gap-1 text-sm">
-            <a href="https://www.delivroo.app.br" target="_blank" rel="noreferrer" className="hover:text-orange transition-colors">
-              www.delivroo.app.br
-            </a>
+            
             <a href="https://wa.me/5535984522324" target="_blank" rel="noreferrer" className="hover:text-orange transition-colors">
               Falar no WhatsApp
             </a>

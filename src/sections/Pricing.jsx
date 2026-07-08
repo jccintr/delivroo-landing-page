@@ -33,8 +33,8 @@ export default function Pricing() {
             </div>
             <p className="text-ink-soft mt-2 text-sm">Sem taxa por pedido, sem comissão, sem surpresas no final do mês</p>
             <a
-              href="https://www.delivroo.app.br"
-              target="_blank"
+              href="#contato"
+              //target="_blank"
               rel="noreferrer"
               className="mt-8 bg-orange text-white font-bold text-center px-6 py-4 rounded-full hover:bg-orange-deep transition-colors"
             >
