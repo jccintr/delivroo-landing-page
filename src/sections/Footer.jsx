@@ -1,5 +1,5 @@
-import Logo from "../components/Logo";
 import Logo2 from "../components/Logo2";
+import { LOGIN_URL, SIGNUP_URL, WHATSAPP_URL } from "../config";
 
 export default function Footer() {
   return (
@@ -9,12 +9,13 @@ export default function Footer() {
           <div>
             <Logo2 dark />
             <p className="mt-3 text-sm max-w-xs">
-              Seu cardápio digital com impressão de pedidos, assinatura fixa e sem taxas ou comissões por pedidos.
+              Cardápio digital e gestão de pedidos para qualquer tipo de delivery. Assinatura fixa, sem taxas ou comissões por pedido.
             </p>
           </div>
           <div className="flex flex-col sm:items-end gap-1 text-sm">
-            
-            <a href="https://wa.me/5535984522324" target="_blank" rel="noreferrer" className="hover:text-orange transition-colors">
+            <a href={SIGNUP_URL} className="hover:text-orange transition-colors">Criar minha loja</a>
+            <a href={LOGIN_URL} className="hover:text-orange transition-colors">Entrar no painel</a>
+            <a href={WHATSAPP_URL} target="_blank" rel="noreferrer" className="hover:text-orange transition-colors">
               Falar no WhatsApp
             </a>
           </div>

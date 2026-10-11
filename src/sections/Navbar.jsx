@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
-import Logo from "../components/Logo";
 import Logo2 from "../components/Logo2";
+import { LOGIN_URL, SIGNUP_URL } from "../config";
 
 
 const links = [
   { href: "#como-funciona", label: "Como funciona" },
+  { href: "#segmentos", label: "Para quem" },
   { href: "#recursos", label: "Recursos" },
   { href: "#preco", label: "Preço" },
   { href: "#contato", label: "Contato" },
@@ -40,12 +41,20 @@ export default function Navbar() {
             </a>
           ))}
         </nav>
-        <a
-          href="#contato"
-          className="bg-ink text-white text-sm font-bold px-4 sm:px-5 py-2.5 rounded-full hover:bg-orange transition-colors"
-        >
-          Fale conosco
-        </a>
+        <div className="flex items-center gap-2 sm:gap-4">
+          <a
+            href={LOGIN_URL}
+            className="hidden sm:block text-sm font-semibold text-ink/70 hover:text-orange transition-colors"
+          >
+            Entrar
+          </a>
+          <a
+            href={SIGNUP_URL}
+            className="bg-ink text-white text-sm font-bold px-4 sm:px-5 py-2.5 rounded-full hover:bg-orange transition-colors"
+          >
+            Teste grátis
+          </a>
+        </div>
       </div>
     </header>
   );

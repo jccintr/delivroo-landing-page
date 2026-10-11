@@ -1,8 +1,8 @@
 import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import HowItWorks from "./sections/HowItWorks";
+import Segments from "./sections/Segments";
 import Features from "./sections/Features";
-import AppShowcase from "./sections/AppShowcase";
 import AdminShowcase from "./sections/AdminShowcase";
 import PrintSignature from "./sections/PrintSignature";
 import Pricing from "./sections/Pricing";
@@ -17,8 +17,8 @@ export default function App() {
       <main>
         <Hero />
         <HowItWorks />
+        <Segments />
         <Features />
-        <AppShowcase />
         <AdminShowcase />
         <PrintSignature />
         <Pricing />

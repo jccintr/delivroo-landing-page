@@ -1,11 +1,14 @@
+import { SIGNUP_URL, TRIAL_DAYS } from "../config";
+
 const included = [
-  "Cardápio digital ilimitado, com seu link próprio",
-  "App Gestor Delivroo para Android",
-  "Painel administrativo web completo",
-  "Impressão de pedidos",
-  "Categorias, adicionais e itens selecionáveis",
-  "Taxas de entrega e formas de pagamento configuráveis",
-  "Relatório de vendas e pedidos por dia",
+  "Cardápio digital ilimitado, com seu link próprio e as cores da sua loja",
+  "Painel web completo, com pedidos em tempo real",
+  "Modelos prontos de cardápio para começar rápido",
+  "Tamanhos, adicionais e itens obrigatórios sem limite",
+  "Impressão de pedidos em impressora térmica",
+  "Taxas por bairro, horários e formas de pagamento",
+  "Página de acompanhamento do pedido para o cliente",
+  "Resumo de vendas e histórico de pedidos",
   "Suporte direto com o desenvolvedor",
 ];
 
@@ -33,14 +36,12 @@ export default function Pricing() {
             </div>
             <p className="text-ink-soft mt-2 text-sm">Sem taxa por pedido, sem comissão, sem surpresas no final do mês</p>
             <a
-              href="#contato"
-              //target="_blank"
-              rel="noreferrer"
+              href={SIGNUP_URL}
               className="mt-8 bg-orange text-white font-bold text-center px-6 py-4 rounded-full hover:bg-orange-deep transition-colors"
             >
-              Assinar o Delivroo
+              Testar grátis por {TRIAL_DAYS} dias
             </a>
-            <p className="text-ink-soft/70 text-xs mt-3 text-center">Cancele quando quiser.</p>
+            <p className="text-ink-soft/70 text-xs mt-3 text-center">Comece sem cartão e sem compromisso. Cancele quando quiser.</p>
           </div>
           <div>
             <p className="font-bold text-ink mb-4">O que está incluso:</p>

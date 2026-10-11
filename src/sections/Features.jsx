@@ -2,32 +2,47 @@ const features = [
   {
     icon: "🛎️",
     title: "Pedidos em tempo real",
-    text: "Seu cliente faz o pedido e você recebe na hora. Daí é só prepearar e notificar o cliente quando estiver pronto.",
+    text: "O pedido aparece na hora no painel, com aviso sonoro, em quadro por etapa: novos, em preparo, prontos e finalizados. Funciona em vários aparelhos ao mesmo tempo.",
   },
   {
-    icon: "🍔",
+    icon: "🧩",
     title: "Cardápio do seu jeito",
-    text: "Categorias, foto, adicionais e itens selecionáveis configuráveis para cada produto.",
+    text: "Categorias, fotos, vários tamanhos e preços, grupos de adicionais e itens obrigatórios, com preço por tamanho. Serve para pizza, lanche, açaí, marmita e o que mais você vender.",
+  },
+  {
+    icon: "🎨",
+    title: "Com a cara da sua loja",
+    text: "Logo e cores da sua marca no cardápio e na página de acompanhamento do pedido. Seu cliente reconhece você, não o sistema.",
   },
   {
     icon: "🖨️",
     title: "Impressão de pedidos",
-    text: "O pedido impresso tem todas as informações para o pessoal da cozinha e da entrega. Tudo para facilitar sua operação e evitar erros.",
+    text: "Cupom para impressora térmica (bobina de 58 mm) com itens, adicionais, observações, endereço, troco e forma de pagamento. Menos erro entre o caixa, a cozinha e a entrega.",
   },
   {
     icon: "🛵",
     title: "Entrega ou retirada",
-    text: "Seu cliente escolhe se quer receber em casa ou retirar no balcão. As taxas de entrega são diferenciadas por bairro.",
+    text: "Seu cliente escolhe receber em casa ou retirar no balcão. Taxa de entrega por bairro, tempos de espera e horários de funcionamento configuráveis.",
+  },
+  {
+    icon: "💬",
+    title: "Status no WhatsApp",
+    text: "A cada mudança de status, um clique abre o WhatsApp com a mensagem pronta para o cliente. Você personaliza o texto de cada etapa.",
+  },
+  {
+    icon: "📍",
+    title: "Cliente acompanha o pedido",
+    text: "Depois de pedir, o cliente vê em que etapa está o pedido, sem precisar ficar perguntando no WhatsApp.",
   },
   {
     icon: "💳",
     title: "Formas de pagamento livres",
-    text: "Cadastre pix, cartão, dinheiro e o que mais sua loja aceitar como forma de pagamento.",
+    text: "Pix, cartão, dinheiro (com troco) e o que mais sua loja aceitar. Sua chave Pix aparece para o cliente na página do pedido.",
   },
   {
     icon: "📊",
-    title: "Relatório de vendas",
-    text: "Relatório de vendas mensal completo com faturamento por dia. Acompanhe o desempenho do seu negócio e tome decisões estratégicas.",
+    title: "Resumo de vendas",
+    text: "Faturamento, ticket médio, pedidos por hora, mais vendidos e comparativo entre entrega e retirada. Hoje, ontem, 7 ou 30 dias e mês.",
   },
 ];
 

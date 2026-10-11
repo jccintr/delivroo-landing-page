@@ -1,3 +1,5 @@
+import { SIGNUP_URL, WHATSAPP_URL } from "../config";
+
 export default function FinalCTA() {
   return (
     <section className="py-24 sm:py-32 bg-cream">
@@ -6,19 +8,17 @@ export default function FinalCTA() {
           Bora tirar seu cardápio do papel e do <span className="text-orange">WhatsApp?</span>
         </h2>
         <p className="text-ink-soft mt-6 text-lg max-w-xl mx-auto leading-relaxed">
-          Em poucos minutos colocamos o seu cardápio online. Fale conosco que nós lhe ajudamos a montar o seu cardápio inicial.
+          Crie sua conta, teste grátis por 14 dias e coloque seu cardápio online em poucos minutos. Precisa de ajuda para montar o cardápio inicial? Fale com a gente.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4 mt-9">
           <a
-            href="#contato"
-            //target="_blank"
-            rel="noreferrer"
+            href={SIGNUP_URL}
             className="bg-orange text-white font-bold px-8 py-4 rounded-full hover:bg-orange-deep transition-colors shadow-lg shadow-orange/30"
           >
-            Quero meu cardápio online
+            Criar minha loja grátis
           </a>
           <a
-            href="https://wa.me/5535984522324"
+            href={WHATSAPP_URL}
             target="_blank"
             rel="noreferrer"
             className="font-bold text-ink px-8 py-4 rounded-full border-2 border-ink/10 hover:border-ink/30 transition-colors"

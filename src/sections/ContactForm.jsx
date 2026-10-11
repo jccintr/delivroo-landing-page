@@ -38,11 +38,11 @@ export default function ContactForm() {
         <div>
           <span className="text-orange-deep font-bold text-sm uppercase tracking-wide">Contato</span>
           <h2 className="font-display font-extrabold text-4xl sm:text-5xl text-ink mt-3 text-balance">
-            Quer colocar sua loja no Delivroo?
+            Ficou com alguma dúvida?
           </h2>
           <p className="text-ink-soft mt-5 text-lg leading-relaxed">
-            Preencha o formulário com seus dados que o nosso SAC entrará em contato com você no WhatsApp pra te ajudar a
-            montar o cardápio e tirar sua loja do papel.
+            Você mesmo pode criar sua loja e testar grátis. Se preferir conversar antes, ou quiser ajuda para montar o
+            cardápio, preencha o formulário e falamos com você no WhatsApp.
           </p>
           <div className="mt-8 space-y-4">
             <a

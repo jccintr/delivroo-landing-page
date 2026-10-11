@@ -1,18 +1,18 @@
 const steps = [
   {
     n: "1",
-    title: "Cliente abre o link do cardápio",
-    text: "Sem baixar aplicativo. Ele monta o pedido, informa apenas nome e telefone e escolhe entre entrega ou retirada.",
+    title: "Crie sua loja e monte o cardápio",
+    text: "Cadastre-se grátis, escolha um modelo pronto (hamburgueria, pizzaria, açaí ou em branco) e ajuste produtos, preços, cores e bairros atendidos.",
   },
   {
     n: "2",
-    title: "Você recebe o pedido na hora",
-    text: "O pedido imediatamente fica disponível no app Gestor Delivroo no seu celular ou no painel web.",
+    title: "Seu cliente pede pelo link",
+    text: "Sem baixar aplicativo. Ele monta o pedido, escolhe entrega ou retirada e acompanha o andamento numa página com as cores da sua loja.",
   },
   {
     n: "3",
-    title: "Imprime, prepara e despacha",
-    text: "Você imprime o pedido, manda para a cozinha. Depois de pronto é só atualizar o status até a entrega ou retirada.",
+    title: "Receba, imprima e despache",
+    text: "O pedido aparece na hora no painel web, com aviso sonoro. Imprima o cupom, prepare e avance o status até a entrega ou retirada.",
   },
 ];
 
@@ -23,7 +23,7 @@ export default function HowItWorks() {
         <div className="max-w-xl mb-16">
           <span className="text-orange-deep font-bold text-sm uppercase tracking-wide">Como funciona</span>
           <h2 className="font-display font-extrabold text-4xl sm:text-5xl text-ink mt-3 text-balance">
-            Do link a entrega, somente três passos
+            Da criação da loja à entrega, só três passos
           </h2>
         </div>
         <div className="grid md:grid-cols-3 gap-6">

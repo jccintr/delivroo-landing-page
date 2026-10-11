@@ -1,7 +1,5 @@
-import PhoneFrame from "../components/PhoneFrame";
-import ClientMenuMobile from "../components/mockups/ClientMenuMobile";
-import ReceiptTicket from "../components/ReceiptTicket";
-import phone from "../assets/tela-principal-mobile.png"
+import phone from "../assets/tela-principal-mobile.png";
+import { SIGNUP_URL, TRIAL_DAYS } from "../config";
 
 export default function Hero() {
   return (
@@ -10,23 +8,23 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-16 items-center">
         <div>
           <span className="inline-flex items-center gap-2 bg-white border border-ink/10 rounded-full px-3.5 py-1.5 text-xs font-bold text-orange-deep shadow-sm">
-            🍔 Perfeito para hamburguerias e similares
+            🛵 Um sistema só para qualquer tipo de delivery
           </span>
           <h1 className="font-display font-extrabold text-[2.6rem] leading-[1.05] sm:text-6xl sm:leading-[1.03] text-ink mt-5 text-balance">
-            Tenha seu próprio cardápio digital<br/> Venda em {" "}
-            <span className="text-orange">poucos cliques</span>
+            Seu delivery online, <br />
+            do <span className="text-orange">seu jeito</span>
           </h1>
           <p className="text-lg text-ink-soft mt-6 max-w-lg leading-relaxed">
-            Seu cliente pede pelo link, sem baixar nada e sem cadastro. Você recebe o pedido na hora no
-            aplicativo gestor ou no painel web. Tudo muito simples, prático e sem taxas por pedido.
+            Hamburgueria, pizzaria, açaí, marmita, doceria, padaria, mercado… Monte seu cardápio com os
+            tamanhos e adicionais que o seu negócio precisa. O cliente pede pelo link, sem baixar nada, e você
+            recebe na hora no painel web. Sem taxa nem comissão por pedido.
           </p>
           <div className="flex flex-wrap items-center gap-4 mt-8">
             <a
-              href="#contato"
-              
+              href={SIGNUP_URL}
               className="bg-orange text-white font-bold px-7 py-4 rounded-full hover:bg-orange-deep transition-colors shadow-lg shadow-orange/30"
             >
-              Quero meu cardápio
+              Criar minha loja grátis
             </a>
             <a
               href="#como-funciona"
@@ -35,11 +33,13 @@ export default function Hero() {
               Ver como funciona
             </a>
           </div>
-          
+          <p className="text-sm text-ink-soft mt-4">
+            {TRIAL_DAYS} dias de teste grátis. Cadastro em poucos minutos, direto pelo navegador.
+          </p>
         </div>
 
         <div className="relative flex justify-center lg:justify-end">
-          <img src={phone} alt="Tela principal do aplicativo mobile" className="w-full md:w-7/12" />
+          <img src={phone} alt="Cardápio digital da loja no celular do cliente" className="w-full md:w-7/12" />
         </div>
       </div>
     </section>

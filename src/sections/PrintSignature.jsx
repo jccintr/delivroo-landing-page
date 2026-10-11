@@ -15,15 +15,17 @@ export default function PrintSignature() {
             Da tela, direto pra cozinha
           </h2>
           <p className="text-ink-soft mt-5 text-lg leading-relaxed">
-            Chega de anotar o pedido em um bloco de notas. O cupom do pedido tem todas as informações para
-            o pessoal da cozinha e da entrega. Itens, observações do cliente, endereço de entrega e forma de
-            pagamento — tudo organizado para facilitar sua operação.
+            Chega de anotar o pedido em um bloco de notas. O cupom tem tudo para a cozinha e para a entrega:
+            itens, adicionais com o valor ao lado, observações, endereço, forma de pagamento e troco. Funciona
+            em impressora térmica de 58 mm e se vê de longe se é para entregar ou retirar.
           </p>
           <ul className="mt-6 space-y-3">
             {[
-              "Observações do cliente destacadas em cada item",
+              "Entregar ou retirada em destaque no topo do cupom",
+              "Adicionais com o preço ao lado e observações do cliente destacadas",
               "Endereço completo pra quem vai entregar",
-              "Imprima quantas cópias quiser",
+              "Troco calculado para o entregador, sem fazer conta",
+              "Reimprima quantas vezes precisar",
               "Elimina os erros de comunicação entre o caixa e a cozinha",
             ].map((t) => (
               <li key={t} className="flex items-start gap-3 text-ink">
