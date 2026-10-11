@@ -29,7 +29,7 @@ export default function HowItWorks() {
         <div className="grid md:grid-cols-3 gap-6">
           {steps.map((s, i) => (
             <div key={s.n} className="relative bg-white rounded-2xl p-7 border border-ink/5 shadow-sm">
-              <span className="font-display font-extrabold text-5xl text-orange-light block">{s.n}</span>
+              <span className="font-display font-extrabold text-5xl text-orange block">{s.n}</span>
               <h3 className="font-display font-bold text-xl text-ink mt-4">{s.title}</h3>
               <p className="text-ink-soft mt-3 leading-relaxed">{s.text}</p>
               {i < steps.length - 1 && (

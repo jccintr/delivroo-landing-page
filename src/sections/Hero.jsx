@@ -1,4 +1,4 @@
-import phone from "../assets/tela-principal-mobile.png";
+import phone from "../assets/tela-cliente-mobile.webp";
 import { SIGNUP_URL, TRIAL_DAYS } from "../config";
 
 export default function Hero() {
@@ -39,7 +39,20 @@ export default function Hero() {
         </div>
 
         <div className="relative flex justify-center lg:justify-end">
-          <img src={phone} alt="Cardápio digital da loja no celular do cliente" className="w-full md:w-7/12" />
+          <div className="relative w-[260px] sm:w-[290px]">
+            <div className="rounded-[2.8rem] bg-ink p-2.5 shadow-2xl shadow-ink/30">
+              <div className="rounded-[2.3rem] overflow-hidden bg-white aspect-[9/19]">
+                <img
+                  src={phone}
+                  alt="Cardápio digital da loja no celular do cliente"
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
+            </div>
+            <div className="absolute -left-[3px] top-28 w-[3px] h-9 bg-ink/80 rounded-l" />
+            <div className="absolute -left-[3px] top-44 w-[3px] h-14 bg-ink/80 rounded-l" />
+            <div className="absolute -right-[3px] top-36 w-[3px] h-16 bg-ink/80 rounded-r" />
+          </div>
         </div>
       </div>
     </section>
