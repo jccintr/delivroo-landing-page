@@ -15,9 +15,9 @@ export default function Hero() {
             do <span className="text-orange">seu jeito</span>
           </h1>
           <p className="text-lg text-ink-soft mt-6 max-w-lg leading-relaxed">
-            Hamburgueria, pizzaria, açaí, marmita, doceria, padaria, mercado… Monte seu cardápio com os
+            Hamburgueria, pizzaria, açaí, restaurante, doceria ou padaria. Monte seu cardápio com os
             tamanhos e adicionais que o seu negócio precisa. O cliente pede pelo link, sem baixar nada, e você
-            recebe na hora no painel web. Sem taxa nem comissão por pedido.
+            recebe na hora no painel web. Sem taxa ou comissão por pedido.
           </p>
           <div className="flex flex-wrap items-center gap-4 mt-8">
             <a
@@ -34,7 +34,7 @@ export default function Hero() {
             </a>
           </div>
           <p className="text-sm text-ink-soft mt-4">
-            {TRIAL_DAYS} dias de teste grátis. Cadastro em poucos minutos, direto pelo navegador.
+            {TRIAL_DAYS} dias de teste grátis.
           </p>
         </div>
 
